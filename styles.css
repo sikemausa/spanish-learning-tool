@@ -1,4 +1,14 @@
+body {
+  background: #363946;
+}
+
 .iframe {
   width: 49vw;
   height: 45vh;
+}
+
+@media (max-width: 1400px) {
+  .iframe {
+    width: 100%;
+  }
 }
