@@ -5,6 +5,8 @@ body {
 .iframe {
   width: 49vw;
   height: 45vh;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
 }
 
 @media (max-width: 1400px) {

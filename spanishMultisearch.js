@@ -30,10 +30,12 @@ submitInput = (event, language) => {
   if (event.keyCode === 13 && language === 'english') {
     setFrame1();
     englishSearch.value = '';
+    spanishSearch.focus();
   };
   if (event.keyCode === 13 && language === 'spanish') {
     setOthers();
     spanishSearch.value = '';
+    englishSearch.focus();
   };
 }
 
