@@ -12,7 +12,7 @@ setFrame1 = () => {
 }
 
 setOthers = () => {
-  iframe2.src = `http://www.forvo.com/word/${spanishSearch.value}/#es`;
+  iframe2.src = `https://www.forvo.com/word/${spanishSearch.value}/#es`;
   iframe3.src = `https://www.google.es/search?igu=1&q=${spanishSearch.value}&tbm=isch&source=univ&sa=X&ved=2ahUKEwi7nsTw9pXlAhUGZKwKHTx9AuUQsAR6BAgEEAE&cshid=1570856121222324`;
   iframe4.src = `https://www.google.es/search?igu=1&ei=&q=${spanishSearch.value} definicion`;
 }
